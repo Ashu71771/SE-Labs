@@ -1,0 +1,5 @@
+| E302: Expected 2 blank lines | Formatting | 11, 22, 30, 34, 39, 45 | Top-level functions did not have the required blank-line spacing. | Added the required blank lines between functions. |
+| E501: Line too long | Formatting | 14, 18 | Lines exceeded Flake8's 79-character limit. | Split long lines across multiple lines. |
+| E722: Bare except | Error Handling | 27 | A bare exception handler was used. | Replaced it with explicit error handling. |
+| F841: Unused local variables | Code Quality | 46, 47, 49 | Variables were assigned values but never used. | Removed unnecessary variable assignments. |
+| E305: Expected 2 blank lines after function | Formatting | 59 | Insufficient blank lines appeared after a function definition. | Added the required blank-line spacing. |
